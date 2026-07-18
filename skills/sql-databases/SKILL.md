@@ -49,5 +49,7 @@ Use `EXPLAIN` before `EXPLAIN ANALYZE` when execution could be expensive or muta
 
 Return: engine assumptions, correctness findings, plan evidence, proposed change, risk, verification, and rollback. Never invent performance targets; derive them from workload requirements.
 
+Read [references/performance-playbook.md](references/performance-playbook.md) for evidence-first tuning across PostgreSQL, MySQL, SQL Server, and SQLite. Read [references/schema-change-playbook.md](references/schema-change-playbook.md) for production DDL, backfills, cutovers, and rollback planning.
+
 Read [references/sources.md](references/sources.md) for primary database references.
 

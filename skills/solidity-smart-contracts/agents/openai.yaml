@@ -1,0 +1,4 @@
+interface:
+  display_name: "Solidity Smart Contracts"
+  short_description: "Build and test Solidity contracts"
+  default_prompt: "Use $solidity-smart-contracts to implement and test this Solidity contract."

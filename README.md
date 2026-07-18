@@ -4,7 +4,7 @@
 
 Сейчас в репозитории:
 
-- **88 скиллов** — включая отдельные стеки для аналитики и ML, creator-бизнеса, коротких видео, AI-персон, геймдева и 3D-производства;
+- **91 скилл** — включая отдельные стеки для аналитики и ML, оптимизации баз данных, blockchain-разработки, creator-бизнеса, геймдева и 3D-производства;
 - **12 агентов** — в том числе `data_analyst`, `analytics_engineer`, `data_engineer`, `data_architect`, `ml_architect` и `experiment_reviewer`;
 - полный [каталог](CATALOG.md) и его [машиночитаемая версия](catalog.json).
 
@@ -33,11 +33,19 @@
 - **Инструменты и интеграции:** `cli-creator`, `mcp-server-patterns`, `playwright`, `gh-address-comments`, `gh-fix-ci`.
 - **Безопасность:** review, threat modeling, ownership map и практики для Python, JavaScript/TypeScript и Go.
 - **Data analytics и BI:** `data-analysis`, `sql-databases`, `bi-data-visualization`, `experimentation-causal-inference`.
+- **Database performance:** `sql-databases` с отдельными playbook’ами для execution plans, индексов, статистики, блокировок, online schema changes и backfill.
+- **Blockchain:** `blockchain-development`, `solidity-smart-contracts`, `smart-contract-security` — от wallet/RPC/indexer-архитектуры до контрактов, fuzz/invariant tests и аудита.
 - **Analytics engineering и dbt:** `analytics-engineering`, `using-dbt-for-analytics-engineering`, `adding-dbt-unit-test`, `building-dbt-semantic-layer`, `working-with-dbt-mesh`.
 - **Data platform:** `data-engineering`, `data-architecture`, `data-quality-governance`.
 - **ML-системы:** `mle-workflow` и `ml-system-architecture` — от data contracts и baseline до serving, monitoring и rollback.
 - **Creator и дистрибуция:** `creator-audience-research`, `creator-positioning-offers`, `short-form-video`, `ai-persona-studio`, `creator-growth-experiments`, `creator-monetization`, `creator-email-launch`.
 - **Game development и 3D:** `game-design`, `gameplay-systems`, `level-design`, `game-engine-development`, `blender-game-assets`, `technical-art`, `game-animation`, `game-performance`, `game-playtest-qa`, а также специализированные RTS-пайплайны.
+
+## Database и blockchain-набор
+
+Для баз данных не создан второй дублирующий router: существующий `sql-databases` усилен отдельными reference-playbook’ами. Performance-процесс идёт от workload evidence и execution plan к одной проверяемой гипотезе, а schema changes используют expand/migrate/contract, bounded backfill, lock/lag guards и реальный план отката.
+
+Blockchain-набор разделён по ответственности. `blockchain-development` покрывает сеть, RPC, кошельки, транзакции, подтверждения, reorg и индексаторы; `solidity-smart-contracts` — EVM-контракты и тестирование; `smart-contract-security` — entry points, invariants, роли, экономические атаки и доказательные findings. Seed phrases, private keys, mainnet-транзакции и deployment без явного разрешения запрещены.
 
 ## Creator и game/3D-набор
 

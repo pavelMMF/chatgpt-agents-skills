@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blockchain Development"
+  short_description: "Build reliable blockchain applications"
+  default_prompt: "Use $blockchain-development to design a safe blockchain application architecture."

@@ -27,7 +27,7 @@
                        "description":  "Use at the start of any Codex chat or task that involves coding, architecture, product ideas, UI/UX, long-running work, research, planning, multiple repositories, documentation, or non-trivial decisions. Coordinates automatic use of anti-slop prose, token/context economy, long-memory files, architecture design, UI/UX review, and multi-agent idea/architecture critique. Also use when the user asks for \"auto skills\", \"start every chat\", \"agents\", \"subagents\", \"architecture debate\", \"long memory\", \"token saving\", \"anti slop\", \"UI UX\", \"brainstorming\", or \"relevance check\".",
                        "path":  "skills/agentic-startup-orchestrator",
                        "files":  3,
-                       "bytes":  9387,
+                       "bytes":  9775,
                        "licenses":  [
 
                                     ]
@@ -147,7 +147,17 @@
                        "description":  "Plan, create, normalize, export, and validate Blender assets for real-time game engines, including meshes, topology, UVs, normals, materials, textures, LODs, collisions, pivots, scale, naming, rigs, and glTF or FBX handoff. Use for Blender-to-Unity/Unreal/Godot pipelines, 3D asset briefs, import failures, or runtime asset budgets.",
                        "path":  "skills/blender-game-assets",
                        "files":  3,
-                       "bytes":  2933,
+                       "bytes":  2932,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "blockchain-development",
+                       "description":  "Design, implement, debug, or review blockchain applications across EVM and Solana, including chain selection, wallets, RPC clients, transaction lifecycle, confirmations, event indexing, off-chain services, and deployment operations. Use for dApps, wallet connections, transaction submission, RPC reliability, reorg handling, chain data, or web3 backend architecture; route Solidity contract internals and security audits to their specialist skills.",
+                       "path":  "skills/blockchain-development",
+                       "files":  3,
+                       "bytes":  4281,
                        "licenses":  [
 
                                     ]
@@ -257,7 +267,7 @@
                        "description":  "Research and validate a creator audience using interviews, comments, search behavior, communities, reviews, analytics, and competitor evidence. Use for niche selection, audience maps, jobs-to-be-done, pain and desire language, content demand, persona evidence, or deciding what a creator should publish; do not fabricate audience insights.",
                        "path":  "skills/creator-audience-research",
                        "files":  3,
-                       "bytes":  2763,
+                       "bytes":  2762,
                        "licenses":  [
 
                                     ]
@@ -277,7 +287,7 @@
                        "description":  "Design, run, and interpret bounded creator growth experiments across topics, hooks, formats, posting cadence, packaging, distribution, collaboration, and conversion. Use for content testing, channel analytics, retention diagnosis, growth loops, weekly reviews, or deciding what to repeat, change, or stop.",
                        "path":  "skills/creator-growth-experiments",
                        "files":  3,
-                       "bytes":  2694,
+                       "bytes":  2693,
                        "licenses":  [
 
                                     ]
@@ -287,7 +297,7 @@
                        "description":  "Evaluate, prioritize, and test creator revenue models including platform payouts, sponsorships, affiliates, services, digital products, courses, memberships, communities, licensing, merchandise, and events. Use for monetization strategy, revenue diversification, sponsor fit, offer sequencing, unit economics, or choosing a first paid experiment without assuming an existing product.",
                        "path":  "skills/creator-monetization",
                        "files":  3,
-                       "bytes":  2973,
+                       "bytes":  2972,
                        "licenses":  [
 
                                     ]
@@ -297,7 +307,7 @@
                        "description":  "Turn audience evidence and creator credibility into distinct positioning, a defensible promise, proof plan, content pillars, and ethical offer ladder. Use for personal-brand positioning, niche framing, creator bios, value propositions, courses, communities, services, memberships, sponsorship packages, pricing structure, or offer diagnosis.",
                        "path":  "skills/creator-positioning-offers",
                        "files":  3,
-                       "bytes":  2748,
+                       "bytes":  2747,
                        "licenses":  [
 
                                     ]
@@ -477,7 +487,7 @@
                        "description":  "Design, implement, export, and review responsive game animation systems, including rigs, skinning, clips, root motion, state machines, blend trees, animation layers, IK, retargeting, events, procedural motion, transitions, and gameplay synchronization. Use for Blender-to-engine animation, locomotion, combat animation, animation bugs, or feel improvements.",
                        "path":  "skills/game-animation",
                        "files":  3,
-                       "bytes":  2789,
+                       "bytes":  2788,
                        "licenses":  [
 
                                     ]
@@ -487,7 +497,7 @@
                        "description":  "Turn a game idea into a testable design contract covering player fantasy, audience, core loop, verbs, progression, constraints, prototype slice, failure criteria, scope, and evidence. Use for game concepts, GDD review, feature prioritization, vertical slices, pitch critique, scope reduction, or deciding what to prototype first.",
                        "path":  "skills/game-design",
                        "files":  3,
-                       "bytes":  2717,
+                       "bytes":  2716,
                        "licenses":  [
 
                                     ]
@@ -507,7 +517,7 @@
                        "description":  "Diagnose and optimize game frame time, CPU, GPU, memory, allocations, loading, streaming, draw calls, shaders, physics, AI, animation, networking, and build size using profiler evidence. Use for stutter, low FPS, spikes, memory pressure, slow loads, thermal limits, platform budgets, or performance regressions in Unity, Unreal, Godot, or custom engines.",
                        "path":  "skills/game-performance",
                        "files":  3,
-                       "bytes":  2603,
+                       "bytes":  2602,
                        "licenses":  [
 
                                     ]
@@ -517,7 +527,7 @@
                        "description":  "Design, implement, or review modular gameplay mechanics, state, input, abilities, combat, interaction, AI behavior, inventory, quests, progression, saving, networking boundaries, and feedback. Use when translating game rules into engine-agnostic interfaces, debugging emergent interactions, or planning testable gameplay code.",
                        "path":  "skills/gameplay-systems",
                        "files":  3,
-                       "bytes":  2749,
+                       "bytes":  2748,
                        "licenses":  [
 
                                     ]
@@ -607,7 +617,7 @@
                        "description":  "Design, block out, review, and iterate game levels, encounters, traversal, spatial metrics, pacing, landmarks, navigation, tutorialization, checkpoints, difficulty, and environmental storytelling. Use for greyboxes, mission flow, combat arenas, puzzle spaces, open zones, multiplayer maps, or diagnosing player confusion and pacing.",
                        "path":  "skills/level-design",
                        "files":  3,
-                       "bytes":  2549,
+                       "bytes":  2548,
                        "licenses":  [
 
                                     ]
@@ -759,7 +769,7 @@
                        "description":  "Design, script, storyboard, produce, and review short-form vertical videos for TikTok, YouTube Shorts, Instagram Reels, and similar feeds. Use for hooks, retention structure, talking-head or faceless formats, shot lists, captions, edit briefs, series design, repurposing, or diagnosing weak short-form performance.",
                        "path":  "skills/short-form-video",
                        "files":  3,
-                       "bytes":  2722,
+                       "bytes":  2721,
                        "licenses":  [
 
                                     ]
@@ -795,11 +805,31 @@
                                     ]
                    },
                    {
+                       "name":  "smart-contract-security",
+                       "description":  "Perform evidence-based security review of smart contracts and blockchain programs by mapping state-changing entry points, roles, trust boundaries, assets, invariants, external calls, token behavior, oracle and bridge assumptions, upgradeability, signatures, economic attacks, and operational controls. Use for Solidity/EVM, Solana/Rust, Move, CosmWasm, Cairo, or other contract audits, threat models, Slither/Echidna/Foundry findings, exploitability triage, or pre-deployment security gates.",
+                       "path":  "skills/smart-contract-security",
+                       "files":  3,
+                       "bytes":  5171,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "solidity-smart-contracts",
+                       "description":  "Design, implement, test, debug, or review Solidity and EVM smart contracts using the repository\u0027s pinned compiler, Foundry or Hardhat, ABI and storage conventions, OpenZeppelin components, upgrade rules, fuzz tests, invariants, and deployment scripts. Use for Solidity code, ERC standards, contract architecture, gas-aware implementation, proxies, contract tests, or EVM deployment preparation; add smart-contract-security for adversarial review.",
+                       "path":  "skills/solidity-smart-contracts",
+                       "files":  3,
+                       "bytes":  4700,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "sql-databases",
                        "description":  "Design, review, debug, and optimize SQL and relational database changes across OLTP and analytical systems. Use for query correctness, joins and grain, execution plans, indexing, transactions, schema design, migrations, warehouse SQL, and database performance; require explicit authorization before any mutation, DDL, migration, or production query.",
                        "path":  "skills/sql-databases",
-                       "files":  3,
-                       "bytes":  3693,
+                       "files":  5,
+                       "bytes":  9866,
                        "licenses":  [
 
                                     ]
@@ -829,7 +859,7 @@
                        "description":  "Design, implement, debug, and review real-time shaders, materials, VFX, particles, lighting, post-processing, procedural content, rendering features, and art-pipeline tooling under measurable platform budgets. Use for Unity Shader Graph/HLSL, Unreal materials/Niagara, Godot shaders, visual defects, asset constraints, or artist-engineer workflow design.",
                        "path":  "skills/technical-art",
                        "files":  3,
-                       "bytes":  2908,
+                       "bytes":  2907,
                        "licenses":  [
 
                                     ]

@@ -62,3 +62,27 @@ Data/ML-профили в нём байт-в-байт совпадают с MIT-
 - неподтверждённые Unity-материалы, которых не оказалось в зафиксированной версии источника.
 
 Добавлены семь creator-скиллов и девять game/3D-скиллов. Все они созданы в стандартной структуре Codex (`SKILL.md`, `agents/openai.yaml`, `references/`) и используют внешние репозитории только как исследовательский материал, а не как исполняемую зависимость.
+
+## Database optimization и blockchain expansion
+
+Дата аудита: 2026-07-18. `sql-databases` уже покрывал execution plans, indexing, transactions и migrations, поэтому отдельный почти идентичный `database-optimizer` был отклонён как конфликтующий trigger. Вместо него добавлены два лениво загружаемых reference-playbook’а: evidence-first performance tuning и безопасный expand/migrate/contract rollout.
+
+Blockchain-покрытие до расширения ограничивалось коротким Solana-фрагментом в общем `security-review`. Добавлены три узких Codex-скилла: архитектура blockchain-приложений, Solidity/EVM-разработка и отдельный adversarial security review.
+
+| Источник | Проверенная версия | Лицензия | Использование | Вердикт |
+|---|---|---|---|---|
+| [Trail of Bits skills](https://github.com/trailofbits/skills) | `cfe5d7b1619e47fb5b38b7e2561dad7e5f1e89af` | CC BY-SA 4.0 | Проверены marketplace manifest, `entry-point-analyzer` и `secure-workflow-guide`; использованы только идеи attack-surface и invariant workflow с атрибуцией | inspiration only |
+| [VoltAgent database-optimizer](https://github.com/VoltAgent/awesome-claude-code-subagents/blob/947b44ca0c58d606b084e9cb1a2389335b49278b/categories/05-data-ai/database-optimizer.md) | `947b44ca0c58d606b084e9cb1a2389335b49278b` | MIT | Уже указан в provenance `sql-databases`; новый дублирующий skill не создан | reject duplicate |
+
+Первичные технические источники: PostgreSQL, MySQL, Microsoft SQL Server, SQLite, Ethereum, Solidity, Foundry, Hardhat, OpenZeppelin, Solana и OWASP Smart Contract Security. Точные ссылки находятся в `references/` соответствующих скиллов.
+
+### Supply-chain verdict
+
+Verdict: `allow-with-edits`; risk: medium. Trail of Bits — идентифицированный security-вендор с публичной лицензией и закреплённым commit, но исходный bundle рассчитан на Claude plugins, содержит `allowed-tools`, обязательные команды Slither/Echidna/Manticore, дополнительные resources и установочную обвязку. Ничего из этого не исполнялось и не импортировалось. Новые инструкции написаны заново под Codex, инструменты считаются опциональными и запускаются только если уже присутствуют и разрешены.
+
+### Что сознательно не импортировано
+
+- marketplace/plugin manifests, Claude tool declarations, install scripts, hooks и внешние бинарники;
+- обязательная установка или запуск Slither, Echidna, Manticore и других scanners без проверки окружения и разрешения;
+- демонстрационные vanity-results и утверждения о полном аудите по одному scanner report;
+- chain-specific vulnerability scanners без реальной задачи: они остаются кандидатами для точечного будущего импорта, а не загружаются глобально.

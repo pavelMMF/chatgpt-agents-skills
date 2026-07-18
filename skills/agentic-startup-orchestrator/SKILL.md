@@ -55,6 +55,8 @@ Before substantive work on any non-trivial task:
 - Use `short-form-video` for platform-native video packages, `ai-persona-studio` for disclosed and consent-based synthetic personas, `creator-growth-experiments` for measured distribution tests, and `creator-email-launch` for permission-based launch sequences.
 - Use `game-design`, `gameplay-systems`, and `level-design` for player experience and rules; use `game-engine-development` for Unity, Unreal, or Godot implementation work.
 - Use `blender-game-assets`, `technical-art`, and `game-animation` for the DCC-to-engine asset pipeline; finish with `game-performance` and `game-playtest-qa` when budgets, profiling, builds, or playtest evidence matter.
+- Use `sql-databases` for evidence-first database optimization and safe schema changes; load its performance or migration playbook only when that decision surface is active.
+- Use `blockchain-development` for chain/RPC/wallet/indexer architecture, `solidity-smart-contracts` for EVM contract implementation, and `smart-contract-security` for adversarial review across contract platforms.
 - Use `context-budget` for a measured context-overhead audit; do not add a duplicate token-advisor agent when `token_budgeter` already covers planning.
 
 ## Multi-Agent Pattern

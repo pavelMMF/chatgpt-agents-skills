@@ -1,0 +1,4 @@
+interface:
+  display_name: "Smart Contract Security"
+  short_description: "Audit smart-contract attack surfaces"
+  default_prompt: "Use $smart-contract-security to review this contract and its invariants."
