@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Performance"
+  short_description: "Profile and optimize frame time memory and loading"
+  default_prompt: "Use $game-performance to build an evidence-first performance investigation and optimization plan."

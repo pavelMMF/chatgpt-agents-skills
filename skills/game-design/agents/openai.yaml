@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Design"
+  short_description: "Turn game ideas into testable design contracts"
+  default_prompt: "Use $game-design to turn this game idea into a scoped, testable design and prototype plan."

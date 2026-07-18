@@ -40,3 +40,25 @@ Data/ML-профили в нём байт-в-байт совпадают с MIT-
 Добавлены десять собственных Codex-скиллов, четыре лицензированных dbt-скилла и шесть read-only агентов. `strategic-compact` переписан без Claude-зависимостей, а `mle-workflow` заменён на связный маршрут, который ссылается только на реально присутствующие компоненты.
 
 Точные файлы и описания находятся в [CATALOG.md](CATALOG.md) и [catalog.json](catalog.json).
+
+## Creator и game/3D expansion
+
+Дата аудита: 2026-07-18. Перед расширением в библиотеке уже были общие `content-engine`, `brand`, `brand-voice` и специализированные RTS-пайплайны. Не хватало отдельных процессов для проверки creator-аудитории и оффера, безопасных AI-персон, измеряемого роста и монетизации, а также общего цикла game design → engine → 3D assets → animation → profiling → playtest.
+
+| Источник | Проверенная версия | Лицензия | Использование | Вердикт |
+|---|---|---|---|---|
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | `67264763cb107d61749f418d081c56e5bcbc0209` | MIT | Карта задач customer research, offers, video, launch, email и growth loops; инструкции написаны заново под Codex | allow with edits |
+| [fagemx/gstack-game](https://github.com/fagemx/gstack-game) | `7259ab9782fa9c17e45c16f1fb8347823ddb4379` | MIT | Идеи для vertical slice, feel pass, asset review, playtest, QA и engineering review; реализация не копировалась | inspiration only |
+| [alexmeckes/godot-claude-skills](https://github.com/alexmeckes/godot-claude-skills) | `881ff9d285b8dfa5e343ce1b32bdcff367fe89f8` | MIT | Проверка охвата Godot scenes, scripts и shaders; маршруты переписаны и привязаны к официальной документации | inspiration only |
+| [akiojin/skills](https://github.com/akiojin/skills) | `4f72afeb9efb9520a7a02afb9e23fba2dbe0ffa1` | MIT | Проверка заявленного Unity-покрытия; подходящего Unity-пакета в зафиксированном дереве не найдено | reject unavailable material |
+
+Для фактических ограничений использованы первичные источники: документация Unity, Unreal Engine, Godot, Blender и Khronos glTF, а для синтетического контента — правила YouTube о disclosure, impersonation и monetization. Ссылки находятся в `references/sources.md` соответствующих скиллов.
+
+### Что сознательно не импортировано
+
+- `.claude`-пути, shell-предисловия, hooks, локальная телеметрия и repo-specific binaries из Claude-наборов;
+- команды установки и запуска непроверенных npm-пакетов, а также запросы API-ключей без необходимости;
+- статические обещания результата, фальшивые отзывы, доходы или дефицит, массовый неаутентичный контент и нераскрытая имитация личности;
+- неподтверждённые Unity-материалы, которых не оказалось в зафиксированной версии источника.
+
+Добавлены семь creator-скиллов и девять game/3D-скиллов. Все они созданы в стандартной структуре Codex (`SKILL.md`, `agents/openai.yaml`, `references/`) и используют внешние репозитории только как исследовательский материал, а не как исполняемую зависимость.

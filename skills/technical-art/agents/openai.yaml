@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Art"
+  short_description: "Design shaders VFX materials and asset budgets"
+  default_prompt: "Use $technical-art to diagnose or design this real-time rendering and asset-pipeline task."

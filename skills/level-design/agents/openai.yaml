@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level Design"
+  short_description: "Design levels encounters pacing and traversal"
+  default_prompt: "Use $level-design to plan this level around player goals, pacing, metrics, and playtest evidence."

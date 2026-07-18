@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Engine Development"
+  short_description: "Route and implement Unity Unreal or Godot work"
+  default_prompt: "Use $game-engine-development to inspect this project and choose the correct engine-specific workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Short-Form Video"
+  short_description: "Design high-retention Shorts Reels and TikToks"
+  default_prompt: "Use $short-form-video to turn this idea into a platform-ready short-form video plan and script."

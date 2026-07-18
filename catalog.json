@@ -27,7 +27,17 @@
                        "description":  "Use at the start of any Codex chat or task that involves coding, architecture, product ideas, UI/UX, long-running work, research, planning, multiple repositories, documentation, or non-trivial decisions. Coordinates automatic use of anti-slop prose, token/context economy, long-memory files, architecture design, UI/UX review, and multi-agent idea/architecture critique. Also use when the user asks for \"auto skills\", \"start every chat\", \"agents\", \"subagents\", \"architecture debate\", \"long memory\", \"token saving\", \"anti slop\", \"UI UX\", \"brainstorming\", or \"relevance check\".",
                        "path":  "skills/agentic-startup-orchestrator",
                        "files":  3,
-                       "bytes":  8537,
+                       "bytes":  9387,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "ai-persona-studio",
+                       "description":  "Create and maintain transparent AI creator personas with consistent identity, visual and voice rules, editorial boundaries, consent, provenance, disclosure, and continuity across content. Use for synthetic hosts, virtual influencers, digital doubles, recurring characters, multilingual avatars, persona bibles, or reviewing impersonation and platform-policy risk.",
+                       "path":  "skills/ai-persona-studio",
+                       "files":  3,
+                       "bytes":  2833,
                        "licenses":  [
 
                                     ]
@@ -133,6 +143,16 @@
                                     ]
                    },
                    {
+                       "name":  "blender-game-assets",
+                       "description":  "Plan, create, normalize, export, and validate Blender assets for real-time game engines, including meshes, topology, UVs, normals, materials, textures, LODs, collisions, pivots, scale, naming, rigs, and glTF or FBX handoff. Use for Blender-to-Unity/Unreal/Godot pipelines, 3D asset briefs, import failures, or runtime asset budgets.",
+                       "path":  "skills/blender-game-assets",
+                       "files":  3,
+                       "bytes":  2933,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "brand",
                        "description":  "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
                        "path":  "skills/brand",
@@ -228,6 +248,56 @@
                        "path":  "skills/context-rot-defense",
                        "files":  2,
                        "bytes":  2105,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "creator-audience-research",
+                       "description":  "Research and validate a creator audience using interviews, comments, search behavior, communities, reviews, analytics, and competitor evidence. Use for niche selection, audience maps, jobs-to-be-done, pain and desire language, content demand, persona evidence, or deciding what a creator should publish; do not fabricate audience insights.",
+                       "path":  "skills/creator-audience-research",
+                       "files":  3,
+                       "bytes":  2763,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "creator-email-launch",
+                       "description":  "Design consent-based lead magnets, landing-page promises, welcome and nurture email sequences, waitlists, creator product launches, and post-launch follow-up. Use for moving platform attention to an owned audience, planning an email funnel, validating a launch, sequencing messages, or reviewing deliverability and conversion risks.",
+                       "path":  "skills/creator-email-launch",
+                       "files":  3,
+                       "bytes":  3105,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "creator-growth-experiments",
+                       "description":  "Design, run, and interpret bounded creator growth experiments across topics, hooks, formats, posting cadence, packaging, distribution, collaboration, and conversion. Use for content testing, channel analytics, retention diagnosis, growth loops, weekly reviews, or deciding what to repeat, change, or stop.",
+                       "path":  "skills/creator-growth-experiments",
+                       "files":  3,
+                       "bytes":  2694,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "creator-monetization",
+                       "description":  "Evaluate, prioritize, and test creator revenue models including platform payouts, sponsorships, affiliates, services, digital products, courses, memberships, communities, licensing, merchandise, and events. Use for monetization strategy, revenue diversification, sponsor fit, offer sequencing, unit economics, or choosing a first paid experiment without assuming an existing product.",
+                       "path":  "skills/creator-monetization",
+                       "files":  3,
+                       "bytes":  2973,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "creator-positioning-offers",
+                       "description":  "Turn audience evidence and creator credibility into distinct positioning, a defensible promise, proof plan, content pillars, and ethical offer ladder. Use for personal-brand positioning, niche framing, creator bios, value propositions, courses, communities, services, memberships, sponsorship packages, pricing structure, or offer diagnosis.",
+                       "path":  "skills/creator-positioning-offers",
+                       "files":  3,
+                       "bytes":  2748,
                        "licenses":  [
 
                                     ]
@@ -403,6 +473,66 @@
                                     ]
                    },
                    {
+                       "name":  "game-animation",
+                       "description":  "Design, implement, export, and review responsive game animation systems, including rigs, skinning, clips, root motion, state machines, blend trees, animation layers, IK, retargeting, events, procedural motion, transitions, and gameplay synchronization. Use for Blender-to-engine animation, locomotion, combat animation, animation bugs, or feel improvements.",
+                       "path":  "skills/game-animation",
+                       "files":  3,
+                       "bytes":  2789,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "game-design",
+                       "description":  "Turn a game idea into a testable design contract covering player fantasy, audience, core loop, verbs, progression, constraints, prototype slice, failure criteria, scope, and evidence. Use for game concepts, GDD review, feature prioritization, vertical slices, pitch critique, scope reduction, or deciding what to prototype first.",
+                       "path":  "skills/game-design",
+                       "files":  3,
+                       "bytes":  2717,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "game-engine-development",
+                       "description":  "Inspect, implement, debug, or review game projects in Unity, Unreal Engine, or Godot while respecting engine version, project conventions, scene and asset formats, lifecycle, testing, packaging, and editor boundaries. Use for C# Unity, C++ or Blueprint Unreal, GDScript Godot, engine selection, migration, scene architecture, builds, or engine-specific code generation.",
+                       "path":  "skills/game-engine-development",
+                       "files":  3,
+                       "bytes":  3474,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "game-performance",
+                       "description":  "Diagnose and optimize game frame time, CPU, GPU, memory, allocations, loading, streaming, draw calls, shaders, physics, AI, animation, networking, and build size using profiler evidence. Use for stutter, low FPS, spikes, memory pressure, slow loads, thermal limits, platform budgets, or performance regressions in Unity, Unreal, Godot, or custom engines.",
+                       "path":  "skills/game-performance",
+                       "files":  3,
+                       "bytes":  2603,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "gameplay-systems",
+                       "description":  "Design, implement, or review modular gameplay mechanics, state, input, abilities, combat, interaction, AI behavior, inventory, quests, progression, saving, networking boundaries, and feedback. Use when translating game rules into engine-agnostic interfaces, debugging emergent interactions, or planning testable gameplay code.",
+                       "path":  "skills/gameplay-systems",
+                       "files":  3,
+                       "bytes":  2749,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "game-playtest-qa",
+                       "description":  "Plan, execute, analyze, and report game playtests and QA across functionality, player comprehension, feel, balance, progression, visuals, audio, input, performance, compatibility, localization, accessibility, saves, and release risk. Use for test plans, bug reproduction, build acceptance, regression matrices, observation protocols, or verifying fixes.",
+                       "path":  "skills/game-playtest-qa",
+                       "files":  3,
+                       "bytes":  3163,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "gh-address-comments",
                        "description":  "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
                        "path":  "skills/gh-address-comments",
@@ -468,6 +598,16 @@
                        "path":  "skills/karpathy-guidelines",
                        "files":  1,
                        "bytes":  2518,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "level-design",
+                       "description":  "Design, block out, review, and iterate game levels, encounters, traversal, spatial metrics, pacing, landmarks, navigation, tutorialization, checkpoints, difficulty, and environmental storytelling. Use for greyboxes, mission flow, combat arenas, puzzle spaces, open zones, multiplayer maps, or diagnosing player confusion and pacing.",
+                       "path":  "skills/level-design",
+                       "files":  3,
+                       "bytes":  2549,
                        "licenses":  [
 
                                     ]
@@ -615,6 +755,16 @@
                                     ]
                    },
                    {
+                       "name":  "short-form-video",
+                       "description":  "Design, script, storyboard, produce, and review short-form vertical videos for TikTok, YouTube Shorts, Instagram Reels, and similar feeds. Use for hooks, retention structure, talking-head or faceless formats, shot lists, captions, edit briefs, series design, repurposing, or diagnosing weak short-form performance.",
+                       "path":  "skills/short-form-video",
+                       "files":  3,
+                       "bytes":  2722,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "skill-auditor",
                        "description":  "Audit and maintain local Codex skills for quality, drift, trigger overlap, metadata validity, context bloat, broken scripts, stale references, missing smoke tests, and unsafe instructions. Use when reviewing `$CODEX_HOME/skills`, project `.codex/skills`, new or edited SKILL.md files, skill registries, or when asked to clean up, deduplicate, validate, or improve personal skills.",
                        "path":  "skills/skill-auditor",
@@ -670,6 +820,16 @@
                        "path":  "skills/tdd",
                        "files":  3,
                        "bytes":  6908,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "technical-art",
+                       "description":  "Design, implement, debug, and review real-time shaders, materials, VFX, particles, lighting, post-processing, procedural content, rendering features, and art-pipeline tooling under measurable platform budgets. Use for Unity Shader Graph/HLSL, Unreal materials/Niagara, Godot shaders, visual defects, asset constraints, or artist-engineer workflow design.",
+                       "path":  "skills/technical-art",
+                       "files":  3,
+                       "bytes":  2908,
                        "licenses":  [
 
                                     ]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Monetization"
+  short_description: "Evaluate and test creator revenue models"
+  default_prompt: "Use $creator-monetization to choose evidence-based monetization tests for this audience."

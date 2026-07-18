@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Game Assets"
+  short_description: "Build export-ready real-time 3D assets"
+  default_prompt: "Use $blender-game-assets to plan and validate this Blender-to-engine asset workflow."

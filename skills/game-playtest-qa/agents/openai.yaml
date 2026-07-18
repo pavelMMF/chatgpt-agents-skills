@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Playtest & QA"
+  short_description: "Plan playtests QA matrices and fix verification"
+  default_prompt: "Use $game-playtest-qa to design a reproducible playtest or game QA pass for this build."

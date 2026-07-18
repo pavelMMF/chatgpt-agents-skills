@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Animation"
+  short_description: "Build responsive animation and rigging workflows"
+  default_prompt: "Use $game-animation to design this gameplay animation state, rig, export, and validation workflow."

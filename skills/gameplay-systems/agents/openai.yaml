@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gameplay Systems"
+  short_description: "Design modular gameplay mechanics and state"
+  default_prompt: "Use $gameplay-systems to design this mechanic as testable modules, state, and feedback loops."

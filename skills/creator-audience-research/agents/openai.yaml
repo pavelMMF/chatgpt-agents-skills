@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Audience Research"
+  short_description: "Find evidence-backed audience problems and language"
+  default_prompt: "Use $creator-audience-research to map an audience from real evidence before planning content."

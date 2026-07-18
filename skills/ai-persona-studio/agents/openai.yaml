@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Persona Studio"
+  short_description: "Create consistent and transparent AI personalities"
+  default_prompt: "Use $ai-persona-studio to design a reusable AI creator persona with disclosure and continuity rules."

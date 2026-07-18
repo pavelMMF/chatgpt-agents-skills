@@ -51,6 +51,10 @@ Before substantive work on any non-trivial task:
 - Use `data-analysis`, `sql-databases`, `analytics-engineering`, or `bi-data-visualization` for analytical work based on the requested output.
 - Use `data-engineering`, `data-architecture`, and `data-quality-governance` for pipelines, platform boundaries, contracts, lineage, and governance.
 - Use `mle-workflow` for ML delivery and `ml-system-architecture` for architecture; add `experimentation-causal-inference` when causal claims or experiments are involved.
+- Use `creator-audience-research` before choosing a creator niche, `creator-positioning-offers` to shape the promise, and `creator-monetization` to compare revenue paths without inventing demand.
+- Use `short-form-video` for platform-native video packages, `ai-persona-studio` for disclosed and consent-based synthetic personas, `creator-growth-experiments` for measured distribution tests, and `creator-email-launch` for permission-based launch sequences.
+- Use `game-design`, `gameplay-systems`, and `level-design` for player experience and rules; use `game-engine-development` for Unity, Unreal, or Godot implementation work.
+- Use `blender-game-assets`, `technical-art`, and `game-animation` for the DCC-to-engine asset pipeline; finish with `game-performance` and `game-playtest-qa` when budgets, profiling, builds, or playtest evidence matter.
 - Use `context-budget` for a measured context-overhead audit; do not add a duplicate token-advisor agent when `token_budgeter` already covers planning.
 
 ## Multi-Agent Pattern

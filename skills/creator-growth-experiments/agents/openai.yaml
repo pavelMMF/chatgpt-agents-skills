@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Growth Experiments"
+  short_description: "Run measurable content and distribution tests"
+  default_prompt: "Use $creator-growth-experiments to design a bounded test for improving creator reach or conversion."

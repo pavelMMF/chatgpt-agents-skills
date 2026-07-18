@@ -4,7 +4,7 @@
 
 Сейчас в репозитории:
 
-- **72 скилла** — включая отдельный стек для аналитики, data engineering, dbt, data architecture, качества данных, экспериментов и ML-систем;
+- **88 скиллов** — включая отдельные стеки для аналитики и ML, creator-бизнеса, коротких видео, AI-персон, геймдева и 3D-производства;
 - **12 агентов** — в том числе `data_analyst`, `analytics_engineer`, `data_engineer`, `data_architect`, `ml_architect` и `experiment_reviewer`;
 - полный [каталог](CATALOG.md) и его [машиночитаемая версия](catalog.json).
 
@@ -36,7 +36,14 @@
 - **Analytics engineering и dbt:** `analytics-engineering`, `using-dbt-for-analytics-engineering`, `adding-dbt-unit-test`, `building-dbt-semantic-layer`, `working-with-dbt-mesh`.
 - **Data platform:** `data-engineering`, `data-architecture`, `data-quality-governance`.
 - **ML-системы:** `mle-workflow` и `ml-system-architecture` — от data contracts и baseline до serving, monitoring и rollback.
-- **Игровые пайплайны:** скиллы для изометрических ассетов, аудио и сборки RTS.
+- **Creator и дистрибуция:** `creator-audience-research`, `creator-positioning-offers`, `short-form-video`, `ai-persona-studio`, `creator-growth-experiments`, `creator-monetization`, `creator-email-launch`.
+- **Game development и 3D:** `game-design`, `gameplay-systems`, `level-design`, `game-engine-development`, `blender-game-assets`, `technical-art`, `game-animation`, `game-performance`, `game-playtest-qa`, а также специализированные RTS-пайплайны.
+
+## Creator и game/3D-набор
+
+Creator-набор покрывает путь от проверки аудитории и позиционирования до производства коротких видео, роста, email-запуска и выбора монетизации. `ai-persona-studio` предназначен для оригинальных или лицензированных AI-персон: он требует согласия на использование внешности и голоса, прозрачного раскрытия синтетического контента и редакторской проверки. Фальшивые отзывы, доходы, дефицит и массовый неаутентичный контент исключены из процесса.
+
+Game/3D-набор разделяет решения по уровню ответственности: дизайн опыта, игровые системы, уровни, реализация в Unity/Unreal/Godot, Blender-пайплайн, technical art, анимация, производительность и playtest/QA. Он не подменяет запуск редактора или профайлера: непроверенные результаты маркируются как гипотезы, а реальные бюджеты и ограничения берутся из проекта.
 
 ## Data/ML-набор
 

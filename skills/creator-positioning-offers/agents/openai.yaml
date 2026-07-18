@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Positioning & Offers"
+  short_description: "Position a creator and design ethical offers"
+  default_prompt: "Use $creator-positioning-offers to turn audience evidence into positioning and an offer ladder."

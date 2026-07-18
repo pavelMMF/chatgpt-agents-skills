@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Email & Launch"
+  short_description: "Build lead magnets email sequences and launches"
+  default_prompt: "Use $creator-email-launch to design a consent-based audience capture and launch sequence."
