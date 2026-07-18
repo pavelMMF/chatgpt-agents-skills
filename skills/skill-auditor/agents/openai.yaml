@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Auditor"
+  short_description: "Maintain and QA local skills"
+  default_prompt: "Use $skill-auditor to audit these local Codex skills for quality and drift."

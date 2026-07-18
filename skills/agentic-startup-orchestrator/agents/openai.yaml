@@ -1,0 +1,7 @@
+interface:
+  display_name: "Agentic Startup Orchestrator"
+  short_description: "Auto-start memory, architecture, UI, anti-slop workflow"
+  default_prompt: "Use $agentic-startup-orchestrator to start a complex coding or design task with memory, architecture, UI, and multi-agent review defaults."
+
+policy:
+  allow_implicit_invocation: true

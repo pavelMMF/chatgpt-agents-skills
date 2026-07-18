@@ -1,0 +1,4 @@
+interface:
+  display_name: "Checkpoint"
+  short_description: "Save and restore complex task understanding"
+  default_prompt: "Create or restore a structured checkpoint for this task."

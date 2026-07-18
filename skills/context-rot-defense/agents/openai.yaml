@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Rot Defense"
+  short_description: "Keep durable findings fresh and valid"
+  default_prompt: "Use $context-rot-defense to clean stale context and mark durable findings by confidence."

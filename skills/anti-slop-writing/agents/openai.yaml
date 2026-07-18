@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anti-Slop Writing"
+  short_description: "Make prose concrete, human, and non-generic"
+  default_prompt: "Use $anti-slop-writing to rewrite this draft so it sounds concrete, human, and not like generic AI copy."

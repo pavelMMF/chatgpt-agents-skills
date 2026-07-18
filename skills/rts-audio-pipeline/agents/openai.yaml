@@ -1,0 +1,4 @@
+interface:
+  display_name: "RTS Audio Pipeline"
+  short_description: "Create and validate RTS SFX, music, voice, and audio manifests."
+  default_prompt: "Organize or validate RTS audio assets, variants, voice lines, music review status, and audio manifests."

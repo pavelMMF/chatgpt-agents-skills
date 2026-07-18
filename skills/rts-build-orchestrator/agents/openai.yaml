@@ -1,0 +1,4 @@
+interface:
+  display_name: "RTS Build Orchestrator"
+  short_description: "Coordinate RTS asset production, validation, and review queues."
+  default_prompt: "Plan and run an isometric RTS production batch with asset cards, validation gates, review queues, and a concise build report."

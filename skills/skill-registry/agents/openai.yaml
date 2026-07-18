@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Registry"
+  short_description: "Index skills and agents for routing"
+  default_prompt: "Use $skill-registry to build or refresh a routing index for local skills and agents."

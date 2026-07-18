@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Creator"
+  short_description: "Create and validate Codex agents"
+  default_prompt: "Use $agent-creator to design and validate a custom Codex agent profile."

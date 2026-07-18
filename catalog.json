@@ -1,0 +1,632 @@
+{
+    "version":  1,
+    "updated_at":  "2026-07-18",
+    "skills":  [
+                   {
+                       "name":  "agent-creator",
+                       "description":  "Create, update, and validate custom Codex agent profiles in TOML for `$CODEX_HOME/agents` or project `.codex/agents`. Use when asked to create agents, subagents, reviewers, critics, workers, role profiles, multi-agent teams, or when auditing agent descriptions, developer instructions, sandbox mode, reasoning effort, overlap with existing agents, or safe delegation defaults.",
+                       "path":  "skills/agent-creator",
+                       "files":  2,
+                       "bytes":  2447,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "agentic-startup-orchestrator",
+                       "description":  "Use at the start of any Codex chat or task that involves coding, architecture, product ideas, UI/UX, long-running work, research, planning, multiple repositories, documentation, or non-trivial decisions. Coordinates automatic use of anti-slop prose, token/context economy, long-memory files, architecture design, UI/UX review, and multi-agent idea/architecture critique. Also use when the user asks for \"auto skills\", \"start every chat\", \"agents\", \"subagents\", \"architecture debate\", \"long memory\", \"token saving\", \"anti slop\", \"UI UX\", \"brainstorming\", or \"relevance check\".",
+                       "path":  "skills/agentic-startup-orchestrator",
+                       "files":  3,
+                       "bytes":  7922,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "anti-slop-writing",
+                       "description":  "Rewrite, draft, or review prose so it sounds concrete, human, and non-generic instead of like AI slop. Use for Russian or English writing, assistant replies, blog posts, launch notes, social posts, emails, explanations, documentation prose, summaries, and any request that mentions sounding natural, less AI, less generic, less corporate, less fluffy, less \"slop\", more direct, more alive, or more like a real person.",
+                       "path":  "skills/anti-slop-writing",
+                       "files":  2,
+                       "bytes":  3410,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "api-design",
+                       "description":  "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.",
+                       "path":  "skills/api-design",
+                       "files":  2,
+                       "bytes":  13363,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "article-writing",
+                       "description":  "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.",
+                       "path":  "skills/article-writing",
+                       "files":  2,
+                       "bytes":  3175,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "asset-librarian",
+                       "description":  "Maintain asset registries, asset cards, manifests, validation states, provenance, review queues, and build reports for a game production pipeline. Use when tracking generated assets, deciding approval status, validating manifests, or organizing review queues.",
+                       "path":  "skills/asset-librarian",
+                       "files":  4,
+                       "bytes":  6725,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "autoresearch",
+                       "description":  "Autonomous iteration loop: modify, verify, keep/discard against any metric",
+                       "path":  "skills/autoresearch",
+                       "files":  21,
+                       "bytes":  97781,
+                       "licenses":  [
+                                        "LICENSE"
+                                    ]
+                   },
+                   {
+                       "name":  "backend-patterns",
+                       "description":  "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.",
+                       "path":  "skills/backend-patterns",
+                       "files":  2,
+                       "bytes":  14091,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "benchmark-methodology",
+                       "description":  "\u003e-",
+                       "path":  "skills/benchmark-methodology",
+                       "files":  2,
+                       "bytes":  10070,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "better-icons",
+                       "description":  "Use when working with icons in any project. Provides CLI for searching 200+ icon libraries (Iconify) and retrieving SVGs. Commands: `better-icons search \u003cquery\u003e` to find icons, `better-icons get \u003cid\u003e` to get SVG. Also available as MCP server for AI agents.",
+                       "path":  "skills/better-icons",
+                       "files":  1,
+                       "bytes":  3584,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "brand",
+                       "description":  "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+                       "path":  "skills/brand",
+                       "files":  18,
+                       "bytes":  88892,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "brand-voice",
+                       "description":  "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes.",
+                       "path":  "skills/brand-voice",
+                       "files":  3,
+                       "bytes":  4946,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "checkpoint",
+                       "description":  "Save, list, or restore high-fidelity task state for complex or long-running Codex work. Use when the user says checkpoint/save state/restore/resume, before context compaction or a long pause, when switching away from an unfinished complex task, or after a major phase whose hypotheses and rejected approaches would be costly to reconstruct. Do not create checkpoints for simple chats or duplicate ordinary progress logging.",
+                       "path":  "skills/checkpoint",
+                       "files":  2,
+                       "bytes":  3497,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "cli-creator",
+                       "description":  "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
+                       "path":  "skills/cli-creator",
+                       "files":  4,
+                       "bytes":  26802,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "codebase-design",
+                       "description":  "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module\u0027s interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+                       "path":  "skills/codebase-design",
+                       "files":  4,
+                       "bytes":  12827,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "coding-standards",
+                       "description":  "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns.",
+                       "path":  "skills/coding-standards",
+                       "files":  2,
+                       "bytes":  13023,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "content-engine",
+                       "description":  "Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.",
+                       "path":  "skills/content-engine",
+                       "files":  2,
+                       "bytes":  4620,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "context-rot-defense",
+                       "description":  "Prevent stale, noisy, or superseded context from polluting long Codex tasks by auditing `task_plan.md`, `findings.md`, `progress.md`, memory files, handoff notes, and compact summaries. Use before or after `/compact`, after long research/debugging phases, when resuming old tasks, when facts may be outdated, or when durable notes need confidence, source, date, validity, and supersession markers.",
+                       "path":  "skills/context-rot-defense",
+                       "files":  2,
+                       "bytes":  2105,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "deep-research",
+                       "description":  "Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations.",
+                       "path":  "skills/deep-research",
+                       "files":  2,
+                       "bytes":  4827,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "define-goal",
+                       "description":  "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
+                       "path":  "skills/define-goal",
+                       "files":  3,
+                       "bytes":  16631,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "design-system",
+                       "description":  "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+                       "path":  "skills/design-system",
+                       "files":  27,
+                       "bytes":  179018,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "diagnosing-bugs",
+                       "description":  "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+                       "path":  "skills/diagnosing-bugs",
+                       "files":  3,
+                       "bytes":  10768,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "documentation-lookup",
+                       "description":  "Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup questions, API references, code examples, or when the user names a framework (e.g. React, Next.js, Prisma).",
+                       "path":  "skills/documentation-lookup",
+                       "files":  2,
+                       "bytes":  5161,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "eval-harness",
+                       "description":  "Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles",
+                       "path":  "skills/eval-harness",
+                       "files":  2,
+                       "bytes":  5757,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "figma",
+                       "description":  "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
+                       "path":  "skills/figma",
+                       "files":  8,
+                       "bytes":  12720,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "figma-create-design-system-rules",
+                       "description":  "Generates custom design system rules for the user\u0027s codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
+                       "path":  "skills/figma-create-design-system-rules",
+                       "files":  8,
+                       "bytes":  23104,
+                       "licenses":  [
+                                        "LICENSE.TXT"
+                                    ]
+                   },
+                   {
+                       "name":  "figma-implement-design",
+                       "description":  "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`.",
+                       "path":  "skills/figma-implement-design",
+                       "files":  6,
+                       "bytes":  15974,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "figma-use",
+                       "description":  "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context — e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
+                       "path":  "skills/figma-use",
+                       "files":  29,
+                       "bytes":  642618,
+                       "licenses":  [
+                                        "LICENSE.TXT"
+                                    ]
+                   },
+                   {
+                       "name":  "find-docs",
+                       "description":  "\u003e-",
+                       "path":  "skills/find-docs",
+                       "files":  1,
+                       "bytes":  7395,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "frontend-patterns",
+                       "description":  "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+                       "path":  "skills/frontend-patterns",
+                       "files":  2,
+                       "bytes":  16218,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "gh-address-comments",
+                       "description":  "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+                       "path":  "skills/gh-address-comments",
+                       "files":  6,
+                       "bytes":  22166,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "gh-fix-ci",
+                       "description":  "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+                       "path":  "skills/gh-fix-ci",
+                       "files":  6,
+                       "bytes":  32642,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "grill-me",
+                       "description":  "Stress-test a new idea, plan, product concept, architecture, or consequential decision through a one-question-at-a-time interview before execution. Use when the user introduces a new idea to explore or build, asks whether a plan makes sense, wants assumptions challenged, says \"grill me\", or has not yet resolved important product or design decisions. Do not trigger for simple questions, status checks, small fixes, or clearly specified execution requests unless the user asks for critique.",
+                       "path":  "skills/grill-me",
+                       "files":  2,
+                       "bytes":  2544,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "improve-codebase-architecture",
+                       "description":  "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+                       "path":  "skills/improve-codebase-architecture",
+                       "files":  3,
+                       "bytes":  11715,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "isometric-asset-pipeline",
+                       "description":  "Create, normalize, validate, and review isometric RTS visual assets such as units, buildings, terrain, sprite sheets, animations, shadows, masks, and VFX. Use when working on graphics, animation manifests, or asset QA for classic isometric RTS-style games.",
+                       "path":  "skills/isometric-asset-pipeline",
+                       "files":  4,
+                       "bytes":  6972,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "jupyter-notebook",
+                       "description":  "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
+                       "path":  "skills/jupyter-notebook",
+                       "files":  12,
+                       "bytes":  30864,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "karpathy-guidelines",
+                       "description":  "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+                       "path":  "skills/karpathy-guidelines",
+                       "files":  1,
+                       "bytes":  2518,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "mcp-server-patterns",
+                       "description":  "Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API.",
+                       "path":  "skills/mcp-server-patterns",
+                       "files":  2,
+                       "bytes":  4124,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "mle-workflow",
+                       "description":  "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+                       "path":  "skills/mle-workflow",
+                       "files":  2,
+                       "bytes":  22718,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "parallel-delegation-protocol",
+                       "description":  "Plan and manage bounded multi-agent delegation for Codex tasks, including subagent briefs, role selection, forbidden scope, file ownership, evidence requirements, token budgets, merge criteria, and reconciliation. Use when a task should be split across multiple agents, when architecture or product ideas need independent perspectives, or when parallel workers could safely handle disjoint research, review, verification, or implementation streams.",
+                       "path":  "skills/parallel-delegation-protocol",
+                       "files":  2,
+                       "bytes":  2519,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "planning-with-files",
+                       "description":  "Manus-style persistent file-based planning for AI coding agents: keeps task_plan.md, findings.md, and progress.md on disk so work survives context loss and /clear. Use when asked to plan out, break down, or organize a multi-step project, research task, or any work requiring 5+ tool calls. Supports automatic session recovery after /clear.",
+                       "path":  "skills/planning-with-files",
+                       "files":  19,
+                       "bytes":  123606,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "playwright",
+                       "description":  "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+                       "path":  "skills/playwright",
+                       "files":  9,
+                       "bytes":  22850,
+                       "licenses":  [
+                                        "LICENSE.txt",
+                                        "NOTICE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "playwright-interactive",
+                       "description":  "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+                       "path":  "skills/playwright-interactive",
+                       "files":  6,
+                       "bytes":  46714,
+                       "licenses":  [
+                                        "LICENSE.txt",
+                                        "NOTICE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "rts-audio-pipeline",
+                       "description":  "Create, organize, validate, and review RTS audio assets including sound effects, UI sounds, ambient loops, music, voice lines, subtitle manifests, loudness checks, audio variants, and audio review queues.",
+                       "path":  "skills/rts-audio-pipeline",
+                       "files":  4,
+                       "bytes":  6254,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "rts-build-orchestrator",
+                       "description":  "Coordinate a multi-agent production pipeline for an isometric RTS game, including asset planning, graphics, animation, audio, mechanics, narrative, validation, review queues, and build reports. Use when Codex needs to plan, run, or audit the full RTS content production workflow.",
+                       "path":  "skills/rts-build-orchestrator",
+                       "files":  4,
+                       "bytes":  5696,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "screenshot",
+                       "description":  "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+                       "path":  "skills/screenshot",
+                       "files":  11,
+                       "bytes":  51996,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "security-best-practices",
+                       "description":  "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+                       "path":  "skills/security-best-practices",
+                       "files":  13,
+                       "bytes":  411749,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "security-ownership-map",
+                       "description":  "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
+                       "path":  "skills/security-ownership-map",
+                       "files":  8,
+                       "bytes":  98526,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "security-review",
+                       "description":  "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.",
+                       "path":  "skills/security-review",
+                       "files":  2,
+                       "bytes":  12496,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "security-threat-model",
+                       "description":  "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+                       "path":  "skills/security-threat-model",
+                       "files":  5,
+                       "bytes":  30913,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "skill-auditor",
+                       "description":  "Audit and maintain local Codex skills for quality, drift, trigger overlap, metadata validity, context bloat, broken scripts, stale references, missing smoke tests, and unsafe instructions. Use when reviewing `$CODEX_HOME/skills`, project `.codex/skills`, new or edited SKILL.md files, skill registries, or when asked to clean up, deduplicate, validate, or improve personal skills.",
+                       "path":  "skills/skill-auditor",
+                       "files":  2,
+                       "bytes":  2442,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "skill-registry",
+                       "description":  "Build or refresh a lightweight machine-readable registry for local Codex skills and custom agents, including tags, triggers, scope, dependencies, conflicts, freshness, and routing notes. Use when asked to index skills, choose among many skills, reduce context cost, compare installed skills and agents, or create/update `skills_index.json` for personal or project-level skill routing.",
+                       "path":  "skills/skill-registry",
+                       "files":  2,
+                       "bytes":  2795,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "skill-supply-chain-review",
+                       "description":  "Audit external Codex skills, custom agents, plugins, MCP configs, AGENTS.md snippets, hooks, or copied prompt/tool bundles before importing, installing, enabling, or trusting them. Use when reviewing GitHub skill repositories, marketplace/plugin examples, third-party agent profiles, downloaded SKILL.md files, or any instruction bundle that could affect tools, filesystem, network, credentials, or future agent behavior.",
+                       "path":  "skills/skill-supply-chain-review",
+                       "files":  2,
+                       "bytes":  3015,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "strategic-compact",
+                       "description":  "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+                       "path":  "skills/strategic-compact",
+                       "files":  2,
+                       "bytes":  5062,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "tdd",
+                       "description":  "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+                       "path":  "skills/tdd",
+                       "files":  3,
+                       "bytes":  6908,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "ui-styling",
+                       "description":  "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
+                       "path":  "skills/ui-styling",
+                       "files":  96,
+                       "bytes":  5666524,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
+                       "name":  "ui-ux-pro-max",
+                       "description":  "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, and HTML/CSS). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, and check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, and mobile app. Elements: button, modal, navbar, sidebar, card, table, form, and chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, and flat design. Topics: color systems, accessibility, animation, layout, typography, font pairing, spacing, interaction states, shadow, and gradient. Integrations: shadcn/ui MCP for component search and examples.",
+                       "path":  "skills/ui-ux-pro-max",
+                       "files":  38,
+                       "bytes":  1872101,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "verification-loop",
+                       "description":  "A comprehensive verification system for Claude Code sessions.",
+                       "path":  "skills/verification-loop",
+                       "files":  2,
+                       "bytes":  2759,
+                       "licenses":  [
+
+                                    ]
+                   }
+               ],
+    "agents":  [
+                   {
+                       "name":  "anti_slop_editor",
+                       "description":  "Editor for direct, concrete, non-generic Russian or English prose.",
+                       "path":  "agents/anti-slop-editor.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "architecture_designer",
+                       "description":  "Architecture design agent for alternative interfaces, seams, adapters, module depth, and testability.",
+                       "path":  "agents/architecture-designer.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "idea_critic",
+                       "description":  "Independent critic for product ideas, architecture proposals, relevance, risks, and user value.",
+                       "path":  "agents/idea-critic.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "memory_keeper",
+                       "description":  "Long-memory agent for summarizing durable findings, decisions, and progress into project files.",
+                       "path":  "agents/memory-keeper.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  ""
+                   },
+                   {
+                       "name":  "token_budgeter",
+                       "description":  "Context economy agent for deciding what to read, summarize, persist, compact, or delegate.",
+                       "path":  "agents/token-budgeter.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "ui_ux_reviewer",
+                       "description":  "UI/UX reviewer for product fit, accessibility, layout, mobile behavior, interaction states, and visual polish.",
+                       "path":  "agents/ui-ux-reviewer.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
+                   }
+               ]
+}

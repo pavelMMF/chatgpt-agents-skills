@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Supply Chain Review"
+  short_description: "Audit external skills before import"
+  default_prompt: "Use $skill-supply-chain-review to audit this external skill before importing it."

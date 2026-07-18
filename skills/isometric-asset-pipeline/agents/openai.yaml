@@ -1,0 +1,4 @@
+interface:
+  display_name: "Isometric Asset Pipeline"
+  short_description: "Create and QA isometric RTS visual assets and sprite manifests."
+  default_prompt: "Prepare or validate isometric RTS units, buildings, sprite sheets, animations, previews, pivots, directions, and review status."

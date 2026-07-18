@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Stress-test an idea one decision at a time"
+  default_prompt: "Grill this idea one question at a time before acting."

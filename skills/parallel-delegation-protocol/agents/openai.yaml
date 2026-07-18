@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parallel Delegation Protocol"
+  short_description: "Bound safe multi-agent delegation"
+  default_prompt: "Use $parallel-delegation-protocol to split this task across agents without overlap."

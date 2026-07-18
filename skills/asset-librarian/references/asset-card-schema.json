@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RTS Asset Card",
+  "type": "object",
+  "required": ["id", "type", "status", "source", "outputs", "qa", "provenance"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "type": {
+      "type": "string",
+      "enum": ["unit", "building", "terrain", "ui", "vfx", "sfx", "music", "voice", "mechanic", "narrative"]
+    },
+    "category": {"type": "string"},
+    "faction": {"type": "string"},
+    "status": {
+      "type": "string",
+      "enum": [
+        "planned",
+        "in_progress",
+        "generated",
+        "validation_failed",
+        "needs_visual_review",
+        "needs_audio_review",
+        "needs_music_review",
+        "needs_fix",
+        "approved",
+        "deprecated"
+      ]
+    },
+    "source": {"type": "array", "items": {"type": "string"}},
+    "outputs": {"type": "array", "items": {"type": "string"}},
+    "required_states": {"type": "array", "items": {"type": "string"}},
+    "qa": {
+      "type": "object",
+      "properties": {
+        "technical_validation": {"type": "string"},
+        "human_review": {"type": "string"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_by": {"type": "string"},
+        "method": {"type": "string"},
+        "references": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

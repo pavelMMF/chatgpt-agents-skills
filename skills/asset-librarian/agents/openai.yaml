@@ -1,0 +1,4 @@
+interface:
+  display_name: "Asset Librarian"
+  short_description: "Maintain asset cards, registries, statuses, and review queues."
+  default_prompt: "Create, validate, or audit RTS asset cards and manifests, then update statuses and review queues."
