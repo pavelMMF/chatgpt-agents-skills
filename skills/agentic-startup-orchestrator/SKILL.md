@@ -48,6 +48,10 @@ Before substantive work on any non-trivial task:
 - Use `context-rot-defense` before/after compaction, after long research/debugging, or when durable notes may be stale.
 - Use `parallel-delegation-protocol` before spawning multiple agents for one task.
 - Use `agent-creator` when creating or updating custom Codex agent TOML profiles.
+- Use `data-analysis`, `sql-databases`, `analytics-engineering`, or `bi-data-visualization` for analytical work based on the requested output.
+- Use `data-engineering`, `data-architecture`, and `data-quality-governance` for pipelines, platform boundaries, contracts, lineage, and governance.
+- Use `mle-workflow` for ML delivery and `ml-system-architecture` for architecture; add `experimentation-causal-inference` when causal claims or experiments are involved.
+- Use `context-budget` for a measured context-overhead audit; do not add a duplicate token-advisor agent when `token_budgeter` already covers planning.
 
 ## Multi-Agent Pattern
 

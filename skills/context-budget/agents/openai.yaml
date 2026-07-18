@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context Budget"
+  short_description: "Audit Codex context and token overhead"
+  default_prompt: "Use $context-budget to audit this Codex setup and recommend evidence-based context savings."

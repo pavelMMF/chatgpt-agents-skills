@@ -1,0 +1,4 @@
+interface:
+  display_name: "SQL & Databases"
+  short_description: "Design and review safe, correct SQL"
+  default_prompt: "Use $sql-databases to review this query and database design for correctness, safety, and performance."

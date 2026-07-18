@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experimentation & Causal Inference"
+  short_description: "Review experiments and causal claims rigorously"
+  default_prompt: "Use $experimentation-causal-inference to design or audit this experiment and its causal identification assumptions."

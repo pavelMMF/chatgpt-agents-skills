@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Engineering"
+  short_description: "Design reliable batch and streaming pipelines"
+  default_prompt: "Use $data-engineering to design or review this data pipeline, including backfills, contracts, and operations."

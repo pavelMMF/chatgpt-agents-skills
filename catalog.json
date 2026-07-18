@@ -3,6 +3,16 @@
     "updated_at":  "2026-07-18",
     "skills":  [
                    {
+                       "name":  "adding-dbt-unit-test",
+                       "description":  "Create dbt unit-test YAML that mocks upstream inputs and validates expected outputs. Use when adding unit tests for a dbt model, practicing test-driven development in dbt, or reviewing warehouse-specific unit-test behavior.",
+                       "path":  "skills/adding-dbt-unit-test",
+                       "files":  16,
+                       "bytes":  48451,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
                        "name":  "agent-creator",
                        "description":  "Create, update, and validate custom Codex agent profiles in TOML for `$CODEX_HOME/agents` or project `.codex/agents`. Use when asked to create agents, subagents, reviewers, critics, workers, role profiles, multi-agent teams, or when auditing agent descriptions, developer instructions, sandbox mode, reasoning effort, overlap with existing agents, or safe delegation defaults.",
                        "path":  "skills/agent-creator",
@@ -17,7 +27,17 @@
                        "description":  "Use at the start of any Codex chat or task that involves coding, architecture, product ideas, UI/UX, long-running work, research, planning, multiple repositories, documentation, or non-trivial decisions. Coordinates automatic use of anti-slop prose, token/context economy, long-memory files, architecture design, UI/UX review, and multi-agent idea/architecture critique. Also use when the user asks for \"auto skills\", \"start every chat\", \"agents\", \"subagents\", \"architecture debate\", \"long memory\", \"token saving\", \"anti slop\", \"UI UX\", \"brainstorming\", or \"relevance check\".",
                        "path":  "skills/agentic-startup-orchestrator",
                        "files":  3,
-                       "bytes":  7922,
+                       "bytes":  8537,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "analytics-engineering",
+                       "description":  "Design and review governed warehouse transformations, dimensional models, marts, semantic metrics, tests, freshness, documentation, and safe model evolution. Use for dbt-style staging/intermediate/mart layers, facts and dimensions, incremental models, metric definitions, lineage, and analytics release planning; route tool-specific dbt implementation to the bundled dbt skills.",
+                       "path":  "skills/analytics-engineering",
+                       "files":  3,
+                       "bytes":  3611,
                        "licenses":  [
 
                                     ]
@@ -103,6 +123,16 @@
                                     ]
                    },
                    {
+                       "name":  "bi-data-visualization",
+                       "description":  "Design or review decision-ready BI dashboards, analytical charts, KPI scorecards, and data stories with correct metric semantics, visual encodings, uncertainty, accessibility, and source tie-out. Use when choosing charts, structuring dashboards, explaining trends, or auditing misleading visualizations.",
+                       "path":  "skills/bi-data-visualization",
+                       "files":  3,
+                       "bytes":  2541,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "brand",
                        "description":  "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
                        "path":  "skills/brand",
@@ -120,6 +150,16 @@
                        "bytes":  4946,
                        "licenses":  [
 
+                                    ]
+                   },
+                   {
+                       "name":  "building-dbt-semantic-layer",
+                       "description":  "Create or modify dbt Semantic Layer components including semantic models, metrics, dimensions, entities, measures, and time spines. Use for MetricFlow configuration, metric types, semantic contracts, and validation across supported dbt specification versions.",
+                       "path":  "skills/building-dbt-semantic-layer",
+                       "files":  7,
+                       "bytes":  60833,
+                       "licenses":  [
+                                        "LICENSE.txt"
                                     ]
                    },
                    {
@@ -173,11 +213,61 @@
                                     ]
                    },
                    {
+                       "name":  "context-budget",
+                       "description":  "Audit and reduce Codex context overhead from instructions, skill metadata, tools, planning files, memory, and duplicated guidance while preserving task quality. Use when context feels crowded, routing overlaps, token use is high, or a repository needs a context-loading strategy.",
+                       "path":  "skills/context-budget",
+                       "files":  3,
+                       "bytes":  2989,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "context-rot-defense",
                        "description":  "Prevent stale, noisy, or superseded context from polluting long Codex tasks by auditing `task_plan.md`, `findings.md`, `progress.md`, memory files, handoff notes, and compact summaries. Use before or after `/compact`, after long research/debugging phases, when resuming old tasks, when facts may be outdated, or when durable notes need confidence, source, date, validity, and supersession markers.",
                        "path":  "skills/context-rot-defense",
                        "files":  2,
                        "bytes":  2105,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "data-analysis",
+                       "description":  "Analyze CSV, spreadsheet, database, event, or experiment data with a reproducible workflow from business question and grain through profiling, statistical validation, source tie-out, and decision-ready conclusions. Use for exploratory analysis, KPI investigation, cohorts, funnels, segmentation, anomaly analysis, and analytical reports; do not use as the primary workflow for production ML systems or data-pipeline architecture.",
+                       "path":  "skills/data-analysis",
+                       "files":  3,
+                       "bytes":  4101,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "data-architecture",
+                       "description":  "Design or review data-platform architecture, domain boundaries, data products, warehouses, lakehouses, streaming systems, semantic layers, metadata, lineage, and migration paths. Use for platform topology, build-versus-buy decisions, data mesh or lakehouse proposals, authoritative-source conflicts, or cross-domain contracts.",
+                       "path":  "skills/data-architecture",
+                       "files":  3,
+                       "bytes":  3309,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "data-engineering",
+                       "description":  "Design, implement, and review reliable batch, streaming, CDC, and lakehouse or warehouse pipelines. Use for ingestion, ETL/ELT, orchestration, partitioning, idempotency, retries, backfills, schema evolution, data contracts, lineage, observability, capacity, cost, and runbooks; do not deploy or mutate production infrastructure without explicit authorization.",
+                       "path":  "skills/data-engineering",
+                       "files":  3,
+                       "bytes":  3604,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "data-quality-governance",
+                       "description":  "Design or review data quality, contracts, ownership, lineage, privacy, retention, observability, and incident controls for analytical and operational datasets. Use for quality rules, governance models, PII handling, lineage gaps, freshness incidents, and control matrices.",
+                       "path":  "skills/data-quality-governance",
+                       "files":  3,
+                       "bytes":  2695,
                        "licenses":  [
 
                                     ]
@@ -238,6 +328,16 @@
                        "path":  "skills/eval-harness",
                        "files":  2,
                        "bytes":  5757,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "experimentation-causal-inference",
+                       "description":  "Design, audit, analyze, or interpret controlled experiments and observational causal studies with explicit estimands, assumptions, diagnostics, uncertainty, and sensitivity analysis. Use for A/B tests, power, CUPED, sequential tests, quasi-experiments, matching, or causal claims.",
+                       "path":  "skills/experimentation-causal-inference",
+                       "files":  3,
+                       "bytes":  3066,
                        "licenses":  [
 
                                     ]
@@ -384,10 +484,20 @@
                    },
                    {
                        "name":  "mle-workflow",
-                       "description":  "Production machine-learning engineering workflow for data contracts, reproducible training, model evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks.",
+                       "description":  "Production machine-learning engineering workflow for data contracts, reproducible training, evaluation, deployment, monitoring, and rollback. Use when building, reviewing, or hardening ML systems beyond one-off notebooks, including feature pipelines, model registries, batch or online inference, drift, retraining, and operational readiness.",
                        "path":  "skills/mle-workflow",
                        "files":  2,
-                       "bytes":  22718,
+                       "bytes":  5844,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
+                       "name":  "ml-system-architecture",
+                       "description":  "Design or review production ML and LLM system architecture across data, features, training, evaluation, registry, serving, retrieval, monitoring, rollout, rollback, cost, and governance. Use for architecture decisions, batch versus online inference, RAG, model routing, or ML modernization.",
+                       "path":  "skills/ml-system-architecture",
+                       "files":  3,
+                       "bytes":  2960,
                        "licenses":  [
 
                                     ]
@@ -535,11 +645,21 @@
                                     ]
                    },
                    {
+                       "name":  "sql-databases",
+                       "description":  "Design, review, debug, and optimize SQL and relational database changes across OLTP and analytical systems. Use for query correctness, joins and grain, execution plans, indexing, transactions, schema design, migrations, warehouse SQL, and database performance; require explicit authorization before any mutation, DDL, migration, or production query.",
+                       "path":  "skills/sql-databases",
+                       "files":  3,
+                       "bytes":  3693,
+                       "licenses":  [
+
+                                    ]
+                   },
+                   {
                        "name":  "strategic-compact",
-                       "description":  "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.",
+                       "description":  "Suggest manual Codex context compaction at meaningful task boundaries after durable state is saved. Use for long, multi-phase work, a completed milestone, a debugging dead end, a topic switch, or observed context pressure; avoid compaction during tightly coupled implementation.",
                        "path":  "skills/strategic-compact",
                        "files":  2,
-                       "bytes":  5062,
+                       "bytes":  2730,
                        "licenses":  [
 
                                     ]
@@ -575,6 +695,16 @@
                                     ]
                    },
                    {
+                       "name":  "using-dbt-for-analytics-engineering",
+                       "description":  "Build and modify dbt models, SQL transformations, tests, and validation workflows using ref(), source(), compile, parse, list, and limited previews. Use for dbt modeling, debugging, source exploration, tests, and impact analysis; require explicit authorization before warehouse-mutating runs.",
+                       "path":  "skills/using-dbt-for-analytics-engineering",
+                       "files":  11,
+                       "bytes":  53842,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
+                   },
+                   {
                        "name":  "verification-loop",
                        "description":  "A comprehensive verification system for Claude Code sessions.",
                        "path":  "skills/verification-loop",
@@ -583,9 +713,26 @@
                        "licenses":  [
 
                                     ]
+                   },
+                   {
+                       "name":  "working-with-dbt-mesh",
+                       "description":  "Assess and roll out potentially breaking dbt model changes across downstream models, exposures, dashboards, and BI consumers. Use for model versions, contracts, access, groups, migration windows, cross-project refs, dependencies.yml, and dbt Mesh decomposition.",
+                       "path":  "skills/working-with-dbt-mesh",
+                       "files":  7,
+                       "bytes":  64591,
+                       "licenses":  [
+                                        "LICENSE.txt"
+                                    ]
                    }
                ],
     "agents":  [
+                   {
+                       "name":  "analytics_engineer",
+                       "description":  "Analytics engineering agent for warehouse models, dbt contracts, metrics, lineage, tests, documentation, and safe change planning.",
+                       "path":  "agents/analytics-engineer.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  "read-only"
+                   },
                    {
                        "name":  "anti_slop_editor",
                        "description":  "Editor for direct, concrete, non-generic Russian or English prose.",
@@ -597,6 +744,34 @@
                        "name":  "architecture_designer",
                        "description":  "Architecture design agent for alternative interfaces, seams, adapters, module depth, and testability.",
                        "path":  "agents/architecture-designer.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "data_analyst",
+                       "description":  "Evidence-first data analysis agent for KPI definitions, SQL analysis, cohorts, funnels, anomalies, experiments, and decision-ready reporting.",
+                       "path":  "agents/data-analyst.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "data_architect",
+                       "description":  "Data architecture agent for domain boundaries, data products, lakehouse and warehouse topology, contracts, governance, lineage, and migration decisions.",
+                       "path":  "agents/data-architect.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "data_engineer",
+                       "description":  "Data engineering agent for batch and streaming pipelines, orchestration, schema evolution, backfills, reliability, quality, and observability.",
+                       "path":  "agents/data-engineer.toml",
+                       "reasoning_effort":  "medium",
+                       "sandbox_mode":  "read-only"
+                   },
+                   {
+                       "name":  "experiment_reviewer",
+                       "description":  "Independent reviewer for A/B tests and causal analyses, focused on estimands, power, instrumentation, diagnostics, uncertainty, and validity threats.",
+                       "path":  "agents/experiment-reviewer.toml",
                        "reasoning_effort":  "high",
                        "sandbox_mode":  "read-only"
                    },
@@ -613,6 +788,13 @@
                        "path":  "agents/memory-keeper.toml",
                        "reasoning_effort":  "medium",
                        "sandbox_mode":  ""
+                   },
+                   {
+                       "name":  "ml_architect",
+                       "description":  "ML and LLM system architecture agent for data, evaluation, training, retrieval, serving, monitoring, rollout, rollback, governance, and cost.",
+                       "path":  "agents/ml-architect.toml",
+                       "reasoning_effort":  "high",
+                       "sandbox_mode":  "read-only"
                    },
                    {
                        "name":  "token_budgeter",

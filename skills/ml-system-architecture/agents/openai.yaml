@@ -1,0 +1,4 @@
+interface:
+  display_name: "ML System Architecture"
+  short_description: "Design production ML system boundaries"
+  default_prompt: "Use $ml-system-architecture to compare ML serving architectures and define training, deployment, monitoring, and rollback seams."

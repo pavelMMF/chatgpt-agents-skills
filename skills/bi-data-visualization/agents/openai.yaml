@@ -1,0 +1,4 @@
+interface:
+  display_name: "BI & Data Visualization"
+  short_description: "Create honest decision-oriented BI and charts"
+  default_prompt: "Use $bi-data-visualization to turn these metrics into a clear, non-misleading dashboard or chart plan."

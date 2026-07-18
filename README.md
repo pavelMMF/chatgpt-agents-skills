@@ -4,8 +4,8 @@
 
 Сейчас в репозитории:
 
-- **58 скиллов** — разработка, архитектура, исследование, письмо, UI/UX, безопасность, GitHub, Figma, Playwright, ML и игровые production-пайплайны;
-- **6 агентов** — архитектор, критик идеи, UI/UX-ревьюер, редактор, хранитель памяти и контролёр контекста;
+- **72 скилла** — включая отдельный стек для аналитики, data engineering, dbt, data architecture, качества данных, экспериментов и ML-систем;
+- **12 агентов** — в том числе `data_analyst`, `analytics_engineer`, `data_engineer`, `data_architect`, `ml_architect` и `experiment_reviewer`;
 - полный [каталог](CATALOG.md) и его [машиночитаемая версия](catalog.json).
 
 ## Как это устроено
@@ -32,7 +32,19 @@
 - **Исследование и оценка:** `deep-research`, `autoresearch`, `benchmark-methodology`, `eval-harness`, `verification-loop`.
 - **Инструменты и интеграции:** `cli-creator`, `mcp-server-patterns`, `playwright`, `gh-address-comments`, `gh-fix-ci`.
 - **Безопасность:** review, threat modeling, ownership map и практики для Python, JavaScript/TypeScript и Go.
-- **ML и игровые пайплайны:** `mle-workflow`, а также скиллы для изометрических ассетов, аудио и сборки RTS.
+- **Data analytics и BI:** `data-analysis`, `sql-databases`, `bi-data-visualization`, `experimentation-causal-inference`.
+- **Analytics engineering и dbt:** `analytics-engineering`, `using-dbt-for-analytics-engineering`, `adding-dbt-unit-test`, `building-dbt-semantic-layer`, `working-with-dbt-mesh`.
+- **Data platform:** `data-engineering`, `data-architecture`, `data-quality-governance`.
+- **ML-системы:** `mle-workflow` и `ml-system-architecture` — от data contracts и baseline до serving, monitoring и rollback.
+- **Игровые пайплайны:** скиллы для изометрических ассетов, аудио и сборки RTS.
+
+## Data/ML-набор
+
+Новые скиллы разделены по типу решения: анализ отвечает на вопрос по данным, analytics engineering создаёт доверенный слой моделей и метрик, data engineering строит надёжное движение данных, data architecture определяет границы и контракты платформы, а ML architecture проектирует полный жизненный цикл модели. Это уменьшает конфликт триггеров и не заставляет загружать один гигантский универсальный prompt.
+
+Все шесть новых агентов работают в `read-only` sandbox. Они предназначены для независимого анализа и ревью; production-запуски, миграции, backfill, изменение трафика и прав доступа требуют отдельного явного разрешения.
+
+Отчёт об источниках, лицензиях, исключённых материалах и сравнении с Claude-репозиторием находится в [RESEARCH.md](RESEARCH.md).
 
 Точное назначение каждого пакета приведено в [CATALOG.md](CATALOG.md).
 
@@ -68,4 +80,4 @@ powershell -NoProfile -File .\scripts\validate-repo.ps1
 
 ## Лицензии и происхождение
 
-Это снимок личной рабочей библиотеки, в которой есть как авторские, так и адаптированные пакеты. Если внутри папки скилла есть `LICENSE`, `LICENSE.txt`, `NOTICE` или `NOTICE.txt`, эти условия относятся к содержимому соответствующей папки. Отсутствие файла лицензии не означает автоматического разрешения на копирование или распространение. Общая лицензия намеренно не назначена всему репозиторию.
+Это снимок личной рабочей библиотеки, в которой есть как авторские, так и адаптированные пакеты. Если внутри папки скилла есть `LICENSE`, `LICENSE.txt`, `NOTICE` или `NOTICE.txt`, эти условия относятся к содержимому соответствующей папки. Отсутствие файла лицензии не означает автоматического разрешения на копирование или распространение. Общая лицензия намеренно не назначена всему репозиторию. Подробный provenance приведён в [RESEARCH.md](RESEARCH.md) и локальных `PROVENANCE.md`.

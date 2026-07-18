@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Quality & Governance"
+  short_description: "Establish data contracts, quality, and ownership"
+  default_prompt: "Use $data-quality-governance to define controls, lineage, ownership, and incident handling for these datasets."

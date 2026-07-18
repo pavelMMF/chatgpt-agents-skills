@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Architecture"
+  short_description: "Choose data platform boundaries and topology"
+  default_prompt: "Use $data-architecture to compare platform options and propose a data architecture with explicit tradeoffs."

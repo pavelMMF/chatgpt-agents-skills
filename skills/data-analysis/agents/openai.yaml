@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Analysis"
+  short_description: "Analyze datasets with statistical and business rigor"
+  default_prompt: "Use $data-analysis to turn this dataset into validated findings and a decision-ready summary."
